@@ -1,0 +1,33 @@
+# User uploads and local image assets
+/uploads/
+/img/
+
+# Images and videos, wherever they appear
+*.avif
+*.bmp
+*.gif
+*.heic
+*.jpeg
+*.jpg
+*.png
+*.svg
+*.tif
+*.tiff
+*.webp
+*.3gp
+*.avi
+*.m4v
+*.mkv
+*.mov
+*.mp4
+*.mpeg
+*.mpg
+*.webm
+
+# Local credentials and configuration
+.env
+.env.*
+!.env.example
+config/app.php
+config/database.php
+/config/**/database.php
